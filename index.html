@@ -1,16 +1,27 @@
 <html>
     <head>
         <title>SCROLL</title>
-        <script src = "src/mainpage.js"></script>
-        <script src = "src/scroller.js"></script>
-        
+
+        <script src = "bower_components/jquery/dist/jquery.min.js"></script>
+        <script src = "node_modules/paper/dist/paper-full.js"></script>
+ 
+        <script type="text/paperscript" src= "src/paperview.js" canvas="previewCanvas"></script>
+        <script type="text/javascript" src = "src/mainpage.js"></script>
+        <script type="text/javascript" src = "src/scroller.js"></script>
+  
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
     </head>
     
-    <body>
+    <body class = "edit">
+        <h1>Mcmooks Custom Vector Scroller!</h1>
+        
+        <div class = "scrollContainer">
+            <canvas id= 'previewCanvas'></canvas>
+        </div>
+        <a onClick="popUp('/pop.html')">click me</a>
         <p>
             Testan
         </p>
-        
         
     </body>
     
