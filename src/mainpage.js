@@ -1,6 +1,8 @@
 
 
-
+function apply(){
+	Paper.createText($('.entry').val());
+}
 
 
 window.onload= function(){

@@ -1,17 +1,25 @@
 
 var PaperFunctions = {
-
-
-
-createText : function(){
-	var text = new PointText({
+text: new PointText({
     point: [100, 50],
-    content: 'The contents of the point text',
+    content: "Hallo",
     fillColor: 'black',
     fontFamily: 'Courier New',
     fontWeight: 'bold',
     fontSize: 25
+    
+}),
+
+
+createText : function(entry){
+    if(!entry){
+        entry = 'The contents of the point text';
+    }
+	this.text.set(
+	{
+	    content: entry,
 	});
+	view.draw();
 	
 }
 

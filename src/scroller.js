@@ -5,10 +5,7 @@ function popUp(url) {
 
 
     $(popup).load(function(){
-        
         $(popup.document.body).append($('#previewCanvas'));
-        
-        
     })
     
     
