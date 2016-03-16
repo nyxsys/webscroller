@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+   <color-list>
+      <base-color>FFFFFF</base-color>
+      <color>63D8DB</color>
+      <color>C1EF95</color>
+      <color>33C284</color>
+      <color>CCA347</color>
+   </color-list>
+   <img>newfollower.png</img>
+   <img-offset>-2</img-offset>
+   <font>MoonFlowerBold.ttf</font>
+   <speed>1</speed>
+   <target>36</target>
+   <default-message>WELCOME TO MCMOOKS! --- MCMOOKS NEWS: (open) --- QUESTION OF THE DAY:  (open) --- FOLLOW US ON TWITTER I GUESS! @wearemcmooks</default-message>
+   <split>---</split>
+</config>
